@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "48301684524",
+    "project_id": "projet-flutter-25cb9",
+    "storage_bucket": "projet-flutter-25cb9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48301684524:android:d8423e006b6ee54b91de89",
+        "android_client_info": {
+          "package_name": "com.example.crub_mini_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLI2uGaHWDamFlOxV32oQjJBObaZ5vzMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
