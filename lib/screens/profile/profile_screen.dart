@@ -130,7 +130,7 @@
 //                   children: [
 //                     SizedBox(height: 20),
 
-//                     // Header avec back button et TNCiné
+//                     // Header avec back button et stremio
 //                     Padding(
 //                       padding: EdgeInsets.symmetric(horizontal: 24),
 //                       child: Row(

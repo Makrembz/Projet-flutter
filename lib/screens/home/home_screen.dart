@@ -168,7 +168,7 @@ class _HomeScreenState extends State<HomeScreen>
                             // Header avec logo et actions
                             Row(
                               children: [
-                                // Logo TNCiné
+                                // Logo stremio
                                 Container(
                                   padding: EdgeInsets.all(10),
                                   decoration: BoxDecoration(
