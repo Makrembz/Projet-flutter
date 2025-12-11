@@ -139,8 +139,18 @@ class _HomeScreenState extends State<HomeScreen>
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
                 colors: isDark
-                    ? [Color(0xFF1a1a2e), Color(0xFF16213e)]
-                    : [Color(0xFF667eea), Color(0xFF764ba2)],
+                    ? [
+                  Color(0xFF402E7A),
+                  Color(0xFF4C3BCF),
+                  Color(0xFF4B70F5),
+                  Color(0xFF3DC2EC),
+                ]
+                    : [
+                  Color(0xFF402E7A),
+                  Color(0xFF4C3BCF),
+                  Color(0xFF4B70F5),
+                  Color(0xFF3DC2EC),
+                ],
               ),
             ),
             child: SafeArea(
@@ -168,7 +178,7 @@ class _HomeScreenState extends State<HomeScreen>
                                   child: Icon(
                                     Icons.movie_outlined,
                                     size: 28,
-                                    color: Colors.red,
+                                    color: Colors.white,
                                   ),
                                 ),
                                 SizedBox(width: 12),
@@ -176,7 +186,7 @@ class _HomeScreenState extends State<HomeScreen>
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'TNCiné',
+                                      'Stremio',
                                       style: TextStyle(
                                         fontSize: 24,
                                         fontWeight: FontWeight.bold,
@@ -190,7 +200,7 @@ class _HomeScreenState extends State<HomeScreen>
                                       decoration: BoxDecoration(
                                         gradient: LinearGradient(
                                           colors: [
-                                            Colors.red,
+                                            Colors.white,
                                             Colors.white.withOpacity(0.3),
                                           ],
                                         ),
@@ -583,8 +593,8 @@ class _HomeScreenState extends State<HomeScreen>
         'Films',
         'Explorer',
         Icons.movie_creation_outlined,
-        Colors.blue,
-        Colors.blueAccent,
+        const Color(0xFF402E7A), // Main color
+        const Color(0xFF4C3BCF), // Accent color
         '/movies',
         isDark,
       ),
@@ -593,8 +603,8 @@ class _HomeScreenState extends State<HomeScreen>
         'Favoris',
         '${user.favoriteMovies.length} films',
         Icons.favorite_outline,
-        Colors.red,
-        Colors.redAccent,
+        const Color(0xFF402E7A),
+        const Color(0xFF4C3BCF),
         '/favorites',
         isDark,
       ),
@@ -603,8 +613,8 @@ class _HomeScreenState extends State<HomeScreen>
         'Matching',
         'Trouver des amis',
         Icons.people_alt_outlined,
-        Colors.green,
-        Colors.lightGreen,
+        const Color(0xFF402E7A),
+        const Color(0xFF4C3BCF),
         '/matching',
         isDark,
       ),
@@ -613,12 +623,13 @@ class _HomeScreenState extends State<HomeScreen>
         'Profil',
         'Mon compte',
         Icons.person_outline,
-        Colors.orange,
-        Colors.deepOrange,
+        const Color(0xFF402E7A),
+        const Color(0xFF4C3BCF),
         '/profile',
         isDark,
       ),
     ];
+
   }
 
   Widget _buildMenuCard(

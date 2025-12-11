@@ -172,8 +172,18 @@ class _MatchingScreenState extends State<MatchingScreen> with SingleTickerProvid
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                   colors: isDark
-                      ? [Color(0xFF1a1a2e), Color(0xFF16213e)]
-                      : [Color(0xFF667eea), Color(0xFF764ba2)],
+                      ? [
+                    Color(0xFF402E7A),
+                    Color(0xFF4C3BCF),
+                    Color(0xFF4B70F5),
+                    Color(0xFF3DC2EC),
+                  ]
+                      : [
+                    Color(0xFF402E7A),
+                    Color(0xFF4C3BCF),
+                    Color(0xFF4B70F5),
+                    Color(0xFF3DC2EC),
+                  ],
                 ),
               ),
               child: SafeArea(

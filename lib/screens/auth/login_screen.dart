@@ -119,8 +119,18 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: isDark
-                ? [Color(0xFF16213e), Color(0xFF0f3460)]
-                : [Color(0xFF4A148C), Color(0xFF1A237E)],
+                ? [
+              Color(0xFF402E7A),
+              Color(0xFF4C3BCF),
+              Color(0xFF4B70F5),
+              Color(0xFF3DC2EC),
+            ]
+                : [
+              Color(0xFF402E7A),
+              Color(0xFF4C3BCF),
+              Color(0xFF4B70F5),
+              Color(0xFF3DC2EC),
+            ],
           ),
         ),
         child: SafeArea(
