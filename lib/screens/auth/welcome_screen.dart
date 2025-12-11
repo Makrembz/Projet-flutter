@@ -68,7 +68,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
             end: Alignment.bottomRight,
             colors: isDark
                 ? [Color(0xFF1a1a2e), Color(0xFF16213e), Color(0xFF0f3460)]
-                : [Color(0xFF667eea), Color(0xFF764ba2), Color(0xFFe73c7e)],
+                : [Color(0xFF667eea), Color(0xFF4A148C), Color(0xFF1A237E)],
           ),
         ),
         child: SafeArea(
@@ -104,7 +104,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
                       child: Icon(
                         Icons.movie_creation_outlined,
                         size: 100,
-                        color: Colors.red,
+                        color: Colors.white,
                       ),
                     ),
                   ),
@@ -117,7 +117,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
                   child: Column(
                     children: [
                       Text(
-                        'TNCiné',
+                        'Stremio',
                         style: TextStyle(
                           fontSize: 56,
                           fontWeight: FontWeight.bold,
@@ -139,9 +139,9 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
                             colors: [
-                              Colors.red,
+                              Colors.white,
                               Colors.white.withOpacity(0.5),
-                              Colors.red,
+                              Colors.white,
                             ],
                           ),
                           borderRadius: BorderRadius.circular(2),
@@ -260,7 +260,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
                 FadeTransition(
                   opacity: _fadeAnimation,
                   child: Text(
-                    '© 2024 TNCiné - Tous droits réservés',
+                    '© 2025 Stremio - Tous droits réservés',
                     style: TextStyle(
                       fontSize: 12,
                       color: Colors.white.withOpacity(0.5),

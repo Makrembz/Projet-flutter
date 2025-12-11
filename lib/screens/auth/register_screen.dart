@@ -360,8 +360,8 @@ class _RegisterScreenState extends State<RegisterScreen>
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: isDark
-                ? [Color(0xFF1a1a2e), Color(0xFF16213e)]
-                : [Color(0xFF667eea), Color(0xFF764ba2)],
+                ? [Color(0xFF16213e), Color(0xFF0f3460)]
+                : [Color(0xFF4A148C), Color(0xFF1A237E)],
           ),
         ),
         child: SafeArea(
@@ -406,7 +406,7 @@ class _RegisterScreenState extends State<RegisterScreen>
                             child: Icon(
                               Icons.movie_outlined,
                               size: 24,
-                              color: Colors.red,
+                              color: Colors.white,
                             ),
                           ),
                           SizedBox(width: 12),
@@ -414,7 +414,7 @@ class _RegisterScreenState extends State<RegisterScreen>
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'TNCiné',
+                                'Stremio',
                                 style: TextStyle(
                                   fontSize: 28,
                                   fontWeight: FontWeight.bold,
@@ -437,7 +437,7 @@ class _RegisterScreenState extends State<RegisterScreen>
                                 decoration: BoxDecoration(
                                   gradient: LinearGradient(
                                     colors: [
-                                      Colors.red,
+                                      Colors.white,
                                       Colors.white.withOpacity(0.3),
                                     ],
                                   ),
@@ -463,7 +463,7 @@ class _RegisterScreenState extends State<RegisterScreen>
                     ),
                     SizedBox(height: 6),
                     Text(
-                      'Rejoignez la communauté TNCiné',
+                      'Rejoignez la communauté Stremio',
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.white.withOpacity(0.8),
@@ -550,7 +550,7 @@ class _RegisterScreenState extends State<RegisterScreen>
                                     child: Container(
                                       padding: EdgeInsets.all(8),
                                       decoration: BoxDecoration(
-                                        color: Color(0xFF667eea),
+                                        color: Color(0xFF1A237E),
                                         shape: BoxShape.circle,
                                         border: Border.all(
                                           color: isDark ? Color(0xFF2d2d44) : Colors.white,

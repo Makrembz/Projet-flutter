@@ -108,7 +108,7 @@ class _MatchingScreenState extends State<MatchingScreen> with SingleTickerProvid
 
   List<Map<String, dynamic>> _findMatches(UserModel currentUser, List<UserModel> allUsers) {
     final matches = <Map<String, dynamic>>[];
-    const double threshold = 20; // Set to 0% to see ALL users initially
+    const double threshold = 75; // Set to 0% to see ALL users initially
 
     for (final user in allUsers) {
       // Skip current user and inactive users

@@ -119,8 +119,8 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: isDark
-                ? [Color(0xFF1a1a2e), Color(0xFF16213e)]
-                : [Color(0xFF667eea), Color(0xFF764ba2)],
+                ? [Color(0xFF16213e), Color(0xFF0f3460)]
+                : [Color(0xFF4A148C), Color(0xFF1A237E)],
           ),
         ),
         child: SafeArea(
@@ -164,7 +164,7 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
                             child: Icon(
                               Icons.movie_outlined,
                               size: 32,
-                              color: Colors.red,
+                              color: Colors.white,
                             ),
                           ),
                           SizedBox(width: 16),
@@ -173,7 +173,7 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'TNCiné',
+                                'Stremio',
                                 style: TextStyle(
                                   fontSize: 36,
                                   fontWeight: FontWeight.bold,
@@ -196,7 +196,7 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
                                 decoration: BoxDecoration(
                                   gradient: LinearGradient(
                                     colors: [
-                                      Colors.red,
+                                      Colors.white,
                                       Colors.white.withOpacity(0.3),
                                     ],
                                   ),
@@ -384,7 +384,7 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
                               child: ElevatedButton(
                                 onPressed: _isLoading ? null : _login,
                                 style: ElevatedButton.styleFrom(
-                                  backgroundColor: Color(0xFF667eea),
+                                  backgroundColor: Color(0xFF16213E),
                                   foregroundColor: Colors.white,
                                   elevation: 8,
                                   shadowColor: Color(0xFF667eea).withOpacity(0.5),
